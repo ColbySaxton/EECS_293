@@ -1,0 +1,36 @@
+\documentclass[12pt]{article}
+\begin{document}
+\begin{flushleft}
+Jeremy Chan jsc126\\
+Colby Saxton cas264\\
+HW #6\\
+EECS 293\\
+GoneClass\\
+February 27, 2019\newline
+\section {Plain Text}
+
+Gone
+
+	board= The initial board of the game
+	replacedPebbleBoard= the board with pebbles replaced on it
+
+	This routine checks if there are any black pebbles remaining on the board after the iterated list of moves occurs. It will return true if there are remaining black pebbles, false if not.
+	blackPebblesLeft()
+		input~ a board
+		Precondition~ For this algorithm to work, the input board must be the board that has already completed all replacements from black to white 
+		output~ Whether or not there are any black pebbles remaining on the board
+
+		For all the possible x-y coordinate pairs on the board do the following:
+			Check to see if there is a pebble on each coordinate using the pebbleOnCoordinates routine for each coordinates
+			If there is a pebble on the location:
+				check to see if the pebble is black, if it is:
+					Then return that there is a black pebble
+				if the pebble is not black:
+					Then continue checking all pebbles
+		After checking all the pebbles, there were no black pebbles, then return that there are no black pebbles
+					
+
+	
+\begin{center} HW #6 \end{center}
+\end{flushleft}
+\end{document}

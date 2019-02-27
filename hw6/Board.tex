@@ -1,0 +1,38 @@
+\documentclass[12pt]{article}
+\begin{document}
+\begin{flushleft}
+Jeremy Chan jsc126\\
+Colby Saxton cas264\\
+HW #6\\
+EECS 293\\
+BoardClass\\
+February 27, 2019\newline
+\section {Plain Text}
+
+Board
+
+	height = The number of pebbles that can vertically fit on the board
+	width = The number of pebbles that can horizontally fit on the board
+	pebbleMap = A map of pebbles where the key of a pebble is its unique integer value from the getPairing method
+
+	pebbleOnCoordinates()
+		input~ the x and y coordinates of the location to check if there is a pebble on
+		output~ Whether or not there is a pebble located at this coordinate
+
+		take the input x and y coordinates and put them into the getPairing routine to get the unique integer value for it
+		Check to see if the unique integer value found above is a key existing in pebbleMap
+		If there is a pebble in the map for this unique integer value:
+			Then return that there is a pebble on these coordinates
+		If there is not a pebble in the map for this unique integer value:
+			Then return that there is not a pebble on these coordinates
+		
+	This routine returns a unique integer value from a a and y coordinate
+	getPairing
+		input~ an x and y coordinate
+
+		Let thisX represent the x coordinate
+		Let thisY represent the y coordinate
+		output~ a value that represents a unique non-negative integer value made from the thisX and thisY values
+\begin{center} HW #6 \end{center}
+\end{flushleft}
+\end{document}
